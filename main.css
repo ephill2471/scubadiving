@@ -1,0 +1,402 @@
+/* Colors /*
+#72c2ff - straight blue
+#3f5c8c; - Dark blue
+#9FE000;- bright green
+#E1E1E1 - light gray
+#767676 - dark gray
+#151515 - black
+/*** sectioning elements ***/
+
+
+body {
+    font-size: 30px;
+    font-family: 'Bahiana', cursive;
+    line-height: 1.5;
+    color: #ffffff;
+
+
+  }
+
+  header {
+    background-color: #72c2ff;
+  }
+
+  main {
+
+  }
+
+  footer {
+    background-color: #72c2ff;
+  }
+
+  nav {
+
+  }
+
+  section {
+
+  }
+
+  aside {
+
+  }
+
+
+  /**** content styles ***/
+
+  h1 {
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    font-family: 'Bahiana', cursive;
+    font-size: 80px;
+  }
+
+
+  h2 {
+    text-align: center;
+    font-family: 'Bahiana', cursive;
+    color: #72c2ff;
+    font-size: 50px;
+  }
+
+  h2.staff {
+    font-size: 60px;
+  }
+
+  h2.cosmetology {
+    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+    color: #FC47B8;
+  }
+
+  h2.about {
+    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+    color: #FD8FE5;
+  }
+
+  h2.course {
+    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+    color: #FD8FE5;
+  }
+
+  h2.myhead {
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+
+  h2.fartface {
+    font-size: 35px;
+  }
+
+  h2.life {
+    font-size: 35px;
+  }
+
+  h2.intro {
+    font-size: 35px;
+  }
+
+  h2.main {
+    font-size: 50px;
+    color: #13294B;
+    font-weight: bold;
+  }
+
+  h2.school {
+    font-size: 59px;
+    font-weight: bold;
+  }
+  h3 {
+   text-align: center;
+  }
+
+  h3.beauty {
+    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+    color: #7504A7;
+  }
+
+  h3.nails {
+    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+    color: #7504A7;
+  }
+
+  h3.hair {
+    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+    color: #7504A7;
+  }
+
+  h3.subjects {
+    font-size: 40px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #007FAE;
+    font-weight: bold;
+  }
+
+
+  h4 {
+
+  }
+
+  h5 {
+
+  }
+
+  h6 {
+
+  }
+
+  p {
+    text-align: center;
+    color: #3f5c8c;
+    font-family: 'Pathway Gothic One', sans-serif;
+  }
+  p.made {
+    font-family: 'Bahiana', cursive;
+    font-size: 30px;
+    color: #ffffff;
+  }
+  p.copyright {
+    font-family: 'Bahiana', cursive;
+    font-size: 30px;
+    color: #ffffff;
+  }
+  p.about {
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    color: #13294B;
+  }
+  p.beauty {
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    color: #13294B;
+  }
+  p.nails {
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    color: #13294B;
+  }
+  p.hair {
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
+    color: #13294B;
+  }
+  p.academics {
+    font-size: 30px;
+  }
+
+  blockquote {
+
+  }
+
+  ol {
+
+  }
+
+  ul {
+     list-style: circle;
+     margin-left: 30PX;
+     padding: 0;
+     color: #3f5c8c;
+     text-align: left;
+     font-family: 'Pathway Gothic One', sans-serif;
+  }
+
+  li {
+
+  }
+
+  table {
+
+  }
+
+  tr {
+
+  }
+
+  th {
+
+  }
+
+  td {
+
+  }
+  div#carousel {
+    grid-area: carousel;
+    overflow: hidden;
+  }
+  div.border {
+    border-style: solid;
+    border-width: 4px;
+    border-color:#9FE000;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 25px;
+  }
+
+  .content{
+    text-align: center;
+
+  }
+
+  /*** image styles ***/
+
+  img  {
+  max-width: 100%;
+  }
+
+  img.right{
+    float: right;
+  }
+
+  img.links{
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  img.links:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+
+  img.dog {
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  }
+
+  legend {
+    font-family: 'Bahiana', cursive;
+    font-size: 30px;
+    color: #ffffff;
+  }
+
+
+  /*** link styles ***/
+  iframe{
+    max-width: 100%;
+  }
+
+  a:link {
+    color: #3f5c8c;
+  }
+
+  a:visited {
+    color: #3f5c8c;
+  }
+
+  a:hover {
+    color: #3f5c8c;
+  }
+
+  a:active {
+    color: #3f5c8c;
+  }
+
+  /* Custum Odin Overrides */
+
+  .navbar {
+     background-color: #3f5c8c;
+  }
+
+  .navbar-brand {
+     color: #ffffff;
+  }
+
+  .navbar-brand a:link,
+  .navbar-brand a:visited {
+
+  }
+
+  .navbar-brand a:hover,
+  .navbar-brand a:active {
+
+  }
+
+  .navbar-menu a:link,
+  .navbar-menu a:visited {
+     color: #ffffff;
+     font-size: 40px;
+     font-family: 'Bahiana', cursive;
+  }
+
+  .navbar-menu a:hover,
+  .navbar-menu a:active {
+
+  }
+
+  .navbar-menu.menu-shown {
+     background-color: #3f5c8c;
+  }
+
+  .menu-toggle {
+     color:#72c2ff;
+  }
+
+  .menu-dismiss {
+     color: #ffffff;
+  }
+
+  .menu-shown a:link,
+  .menu-shown a:visited {
+     color: #ffffff;
+     font-size: 35px;
+     font-family: 'Bahiana', cursive;
+
+  }
+
+  .menu-shown a:active,
+  .menu-shown a:hover {
+
+  }
+
+  @media (min-width: 500px){
+    h2.cosmetology {
+        font-size: 60px;
+  }
+  h2.about {
+    font-size: 50px;
+  }
+
+
+  h2.course {
+    font-size: 50px;
+  }
+  }
+
+  @media (min-width: 500px){
+    h2.myhead {
+        font-size: 60px;}
+
+    h2.fartface {
+        font-size: 50px;
+        }
+
+    h2.intro {
+      font-size: 50px;
+    }
+    h2.life {
+      font-size: 50px;
+    }
+
+
+  }
